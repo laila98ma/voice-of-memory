@@ -13,7 +13,7 @@ jobs:
           distribution: 'temurin'
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.27.0'
           channel: 'stable'
       - name: Flutter pub get
         run: cd voice_of_memory && flutter pub get
