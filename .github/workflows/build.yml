@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract project
-        run: unzip voice_of_memory_fixed.zip
+        run: unzip -o voice_of_memory_fixed.zip
       - uses: actions/setup-java@v4
         with:
           java-version: '17'
