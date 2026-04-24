@@ -25,6 +25,8 @@ dependencies:
   url_launcher: ^6.3.1
   page_transition: ^2.1.0
   cupertino_icons: ^1.0.0
+  from_css_color: ^2.0.0
+  json_path: ^0.7.2
   collection: ^1.18.0
   file_picker: ^10.1.9
   image_picker: ^1.1.2
