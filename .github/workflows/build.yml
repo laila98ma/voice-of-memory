@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Extract project
+        run: unzip voice_of_memory_fixed.zip
       - uses: actions/setup-java@v4
         with:
           java-version: '17'
@@ -12,8 +14,11 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.24.0'
-      - run: cd voice_of_memory && flutter pub get
-      - run: cd voice_of_memory && flutter build apk --release
+          channel: 'stable'
+      - name: Flutter pub get
+        run: cd voice_of_memory && flutter pub get
+      - name: Build APK
+        run: cd voice_of_memory && flutter build apk --release
       - uses: actions/upload-artifact@v4
         with:
           name: app-release
