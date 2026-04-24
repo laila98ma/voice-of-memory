@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "852403981335",
+    "project_id": "voiceof-memory-pyijw1",
+    "storage_bucket": "voiceof-memory-pyijw1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852403981335:android:5f89de58a3bfce9ead2052",
+        "android_client_info": {
+          "package_name": "com.mycompany.voiceofmemory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP4js4OcZD2tah0ib8vD6zmT62QvuR2Fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
